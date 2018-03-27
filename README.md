@@ -16,7 +16,7 @@ Then enter the output into a file config.yaml as show below
 proxy:
   secretToken: "<OUTPUT-OF-`openssl rand -hex 32`>"
 ```
-Now to add the repo of PureJupyterHub
+### Now to add the repo of PureJupyterHub
 ```
 helm repo add purejupyterhub https://raw.githubusercontent.com/2vcps/purejupyterhub-chart/master/
 helm repo update
