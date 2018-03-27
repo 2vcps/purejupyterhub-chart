@@ -24,7 +24,7 @@ helm repo update
 This will add the repo and update the database of where to find our Chart.
 This is for demo/test/dev purposes there are Oauth settings you must learn and setup before using this in production.
 ```
-helm install purejupyterhub/purejupyterhub \
+helm install purejupyterhub/jupyterhub \
     --version=v0.6 \
     --name=<YOUR-RELEASE-NAME> \
     --namespace=<YOUR-NAMESPACE> \
