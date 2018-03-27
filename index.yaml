@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  jupyterhub:
+  - apiVersion: v1
+    created: 2018-03-27T06:38:21.280008149-07:00
+    description: Multi-user Jupyter installation
+    digest: 6aff69697b37c9b26d43826318975e383fa38d86a0218db2cfc7468378f26dc3
+    name: jupyterhub
+    urls:
+    - jupyterhub-v0.6.tgz
+    version: v0.6
+generated: 2018-03-27T06:38:21.278541321-07:00
