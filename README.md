@@ -35,3 +35,8 @@ helm install purejupyterhub/jupyterhub \
 --namespace is the namespace in k8s and you can remove this line if you want JupyterHub to run in the default namespace.
 
 -f config.yaml is the file you created above. This contains the ssl hex for jupyter hub to use.
+
+# Important to note
+This chart defaults to using the Tensorflow Jupyter Notebook image because my sample code requires TF. Additionally, I have also defaulted the sqllite db persistent storage to use pure-block as the storageClass and for the home directories per user we are using NFS and the pure-file storageClass.
+
+This means you must have the Pure Storage Kubernetes plugin installed with a FlashArray and a Flashblade configured in the pure.json file.
