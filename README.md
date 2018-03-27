@@ -31,5 +31,7 @@ helm install purejupyterhub/jupyterhub \
     -f config.yaml
 ```
 --name is the release name and you can name it how you like.
+
 --namespace is the namespace in k8s and you can remove this line if you want JupyterHub to run in the default namespace.
+
 -f config.yaml is the file you created above. This contains the ssl hex for jupyter hub to use.
