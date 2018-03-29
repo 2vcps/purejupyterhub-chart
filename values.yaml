@@ -25,6 +25,10 @@ hub:
   extraConfig: ''
   extraConfigMap: {}
   extraEnv: {}
+  extraEnv:
+    JUPYTER_ENABLE_LAB: 1
+  extraConfig: |
+    c.KubeSpawner.cmd = ['jupyter-labhub']
   extraContainers: []
   extraVolumes: []
   extraVolumeMounts: []
@@ -144,7 +148,7 @@ singleuser:
       storageClass: pure-file
   image:
     name: jupyter/tensorflow-notebook
-    tag: latest
+    tag: c88678a1c7c9
   startTimeout: 300
   cpu:
     limit:
