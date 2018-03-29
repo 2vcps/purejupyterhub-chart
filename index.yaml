@@ -1,12 +1,12 @@
 apiVersion: v1
 entries:
-  jupyterhub:
+  purejupyterhub-chart:
   - apiVersion: v1
-    created: 2018-03-27T06:38:21.280008149-07:00
+    created: 2018-03-29T09:42:01.690128-04:00
     description: Multi-user Jupyter installation
-    digest: 6aff69697b37c9b26d43826318975e383fa38d86a0218db2cfc7468378f26dc3
-    name: jupyterhub
+    digest: b334ea4540db807796f287061ba14c15cb6350124660b58f33f8cdfbc168f0f9
+    name: purejupyterhub-chart
     urls:
-    - jupyterhub-v0.6.tgz
+    - purejupyterhub-chart-v0.6.tgz
     version: v0.6
-generated: 2018-03-27T06:38:21.278541321-07:00
+generated: 2018-03-29T09:42:01.686253-04:00
